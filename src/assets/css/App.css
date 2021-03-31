@@ -1,0 +1,245 @@
+.App {
+   text-align: center; 
+  
+}
+#root{
+  display: flex;
+  flex-direction: row;
+  background-color:#F7F7F7;
+  height: 100%;
+
+ 
+}
+
+/* ----------------------------menu---------------------------- */
+
+
+
+.containerMenu{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-color: white;
+width: 100px;
+height: 100vh;
+
+}
+.Menu1{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.Menu2{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: flex-end;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 30px;
+
+}
+.BtnMenu{
+  background-color: #F7F7F7 !important;
+  height: 50px !important;
+  min-width: 50px !important;
+  border-radius: 12px !important;
+}
+.BtnMenuUser{
+  background-color: #3E6BEC !important;
+  height: 50px !important;
+  min-width: 50px !important;
+  border-radius: 12px !important;
+}
+.MuiButton-startIcon{
+  margin-left: 8px !important;
+  
+}
+
+/* ---------------------------------------------------------------- */
+/* .btnPerson:focus {
+  background-color: #3E6BEC;
+  color: white;
+} */
+
+.containerUsers{
+  width: 100%;
+  margin-left: 145px;
+  margin-top: 60px;
+}
+.titleUser{
+  display: flex;
+  justify-content: flex-start;
+}
+.shearAdd{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 130vh;
+}
+.inputUser, .AddUser{
+  background-color: white;
+  border-radius: 18px;
+  /* padding: 10px 25px 10px 10px; */
+}
+.btnsearch{
+  margin-left: 21px;
+  margin-right: 17px;
+}
+.AddUser{
+  height: 58px;
+  width: 189px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.btnAdd{
+ font-Size: 38px !important;
+ border-radius: 12px;
+ background-color: #3E6BEC;
+ color: white;
+}
+.PNewUser{
+  color: black;
+  font-weight: bold;
+  text-transform: lowercase;
+
+}
+
+.inputUser{
+  height: 58px;
+ width: 320px;
+display: flex;
+  align-items: center;
+
+}
+
+/* ---------------------------all user-------------------------  */
+.allUser{
+display: flex;
+}
+.allUser1{
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+ 
+}
+
+
+.CardUser{
+ display: flex;
+background-color: white;
+  border-radius: 12px;
+  
+  margin: 30px;
+  margin-left: 0px;
+  width: 330px;
+  height: 84px;
+  justify-content:  space-around;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+}
+.LinkEdit{
+  display: flex;
+  align-items: center;
+}
+.btnEdit{
+  background-color: #DBA97C;
+  color: white;
+  border-radius: 50%;
+
+}
+
+.UserName, .UserRole{
+  margin: 0px;
+}
+.UserRole{
+  color: #7F85A2;
+  ;
+}
+.UserNameRole{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*---------------------- page add a user -----------------------*/
+.containerNewUser{
+  width: 100%;
+  
+}
+
+.saveAdd{
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ height: 110px;
+border-radius: 14px;
+background-color: white;
+align-items: center;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+
+.btnreturn{
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.btnSave{
+  margin-right: 30px !important;
+  background-color: #52D8B0 !important;
+  color: white !important;
+  border-radius: 12px !important;
+}
+.UsInfo{
+
+  margin-left: 52px;
+}
+
+.formUser{
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 100px;
+  margin: 20px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+}
+.Form1, .Form2{
+  display: flex;
+flex-wrap: wrap;
+margin-bottom: 70px;
+}
+.labelForm{
+  display: flex;
+  flex-direction: column;
+  height: 48px;
+width: 278px;
+border-radius: 4px;
+margin: 35px 70px 32px 52px ;
+}
+
+.InputForm{
+  height: 48px !important ;
+width: 278px;
+border: 1px solid gray;
+border-radius: 4px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+justify-content: center;
+}
+.titleForm{
+  color:#9FA3B9;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.errorInput{ color: red;}
