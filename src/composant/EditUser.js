@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Button from "../../../nigthbornexo1z/node_modules/@material-ui/core/Button";
-import ArrowBackIcon from "../../../nigthbornexo1z/node_modules/@material-ui/icons/ArrowBack";
+import Button from "@material-ui/core/Button";
+import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 import {useHistory} from 'react-router-dom';
-import {useForm} from '../../../nigthbornexo1z/node_modules/react-hook-form';
+import {useForm} from 'react-hook-form';
 import { Link } from "react-router-dom";
 export default function EditUser(props) {
     let history = useHistory()

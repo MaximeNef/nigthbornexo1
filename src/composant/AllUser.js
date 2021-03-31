@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import CardUser from './CardUser'
-import Input from '../../../nigthbornexo1z/node_modules/@material-ui/core/Input';
-import Button from '../../../nigthbornexo1z/node_modules/@material-ui/core/Button';
-import AddIcon from '../../../nigthbornexo1z/node_modules/@material-ui/icons/Add';
-import SearchIcon from '../../../nigthbornexo1z/node_modules/@material-ui/icons/Search';
-import NewUser from './NewUser'
-import User from '../index.js'
+import Input from '@material-ui/core/Input';
+import Button from '@material-ui/core/Button';
+import AddIcon from '@material-ui/icons/Add';
+import SearchIcon from '@material-ui/icons/Search';
+
+
 
 
 

@@ -2,11 +2,12 @@
 import React, {useState} from "react";
 import ReactDOM from "react-dom";
 import "../assets/css/App.css";
-import {
-  BrowserRouter,
-  BrowserRouter as Router,
-  Route,
-} from "react-router-dom";
+// import {
+//   BrowserRouter,
+//   BrowserRouter as Router,
+//   Route,
+// } from "react-router-dom";
+import { HashRouter, Route } from 'react-router-dom'
 import Menu from "./Menu"
 import AllUser from "./AllUser"
 import NewUser from "./NewUser"
@@ -46,7 +47,7 @@ const updateUser = (id, updatedUser) => {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Menu />
         <Route exact path="/" render={ props => < AllUser users={users} editRow={editRow}  setUsers={setUsers} />} />
         <Route
@@ -59,7 +60,7 @@ const updateUser = (id, updatedUser) => {
           path="/EditUser"
           render={props => <EditUser users={users} setUsers={setUsers} updateUser={updateUser} editRow={editRow} currentUser={currentUser}/>}
         />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
